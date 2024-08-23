@@ -25,3 +25,4 @@ function onQuizCreate() {
         .then((res) => res.text()
         .then((t) => eval(t)))
 }
+waitForKeyElements( " option 
